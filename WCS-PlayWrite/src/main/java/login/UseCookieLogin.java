@@ -1,9 +1,8 @@
 package login;
 
-
+// This is Old script without test cases.
 import java.nio.file.Paths;
 import java.util.Random;
-
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserContext;
 import com.microsoft.playwright.BrowserType;
@@ -42,18 +41,17 @@ public class UseCookieLogin {
 			page.navigate("https://www.dmart.in/cart");
 			page.waitForURL("https://www.dmart.in/cart");
 			System.out.println("/Cart fetch");
+			
 			page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Proceed to checkout")).click();
 			page.locator("input[value=\"hd\"]").check();
+			
 			page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Confirm Address")).click();
-			
-			
-			page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Confirm Time Slot")).click();
-			System.out.println("Confirm time slot not Working");
-			page.pause();
-			
+			Thread.sleep(5000);
+			page.click("//button[text()='Confirm Time Slot']");
+
+		
 			page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Pay on Delivery (COD)")).click();
 			Thread.sleep(3000);
-			
 			
 			page.navigate("https://www.dmart.in/cart");
 			page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName(" Remove all")).click();

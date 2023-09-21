@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[400058]]>
+    </line>
+    <line>
+      <![CDATA[oil]]>
+    </line>
+    <line>
+      <![CDATA[21092023 164538]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-09-21T16:44:41 IST" name="Default suite" finished-at="2023-09-21T16:45:43 IST" duration-ms="61969">
+    <groups>
+    </groups>
+    <test started-at="2023-09-21T16:44:41 IST" name="Default test" finished-at="2023-09-21T16:45:43 IST" duration-ms="61969">
+      <class name="testcases.All_Test">
+        <test-method is-config="true" signature="Login()[pri:0, instance:testcases.All_Test@29215f06]" started-at="2023-09-21T16:44:41 IST" name="Login" finished-at="2023-09-21T16:44:50 IST" duration-ms="8363" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="SetPincode()[pri:1, instance:testcases.All_Test@29215f06]" started-at="2023-09-21T16:44:50 IST" name="SetPincode" finished-at="2023-09-21T16:45:09 IST" duration-ms="19329" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[400058]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetPincode -->
+        <test-method signature="SearchAndAddtoCart()[pri:2, instance:testcases.All_Test@29215f06]" started-at="2023-09-21T16:45:09 IST" name="SearchAndAddtoCart" finished-at="2023-09-21T16:45:18 IST" duration-ms="8707" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[oil]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchAndAddtoCart -->
+        <test-method signature="MyCartScreen()[pri:3, instance:testcases.All_Test@29215f06]" started-at="2023-09-21T16:45:18 IST" name="MyCartScreen" finished-at="2023-09-21T16:45:20 IST" duration-ms="2541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyCartScreen -->
+        <test-method signature="AddressCheck()[pri:4, instance:testcases.All_Test@29215f06]" started-at="2023-09-21T16:45:20 IST" name="AddressCheck" finished-at="2023-09-21T16:45:27 IST" duration-ms="6270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddressCheck -->
+        <test-method signature="CheckoutScreens()[pri:5, instance:testcases.All_Test@29215f06]" started-at="2023-09-21T16:45:27 IST" name="CheckoutScreens" finished-at="2023-09-21T16:45:38 IST" duration-ms="11560" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[21092023 164538]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckoutScreens -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.All_Test@29215f06]" started-at="2023-09-21T16:45:38 IST" name="tearDown" finished-at="2023-09-21T16:45:43 IST" duration-ms="5085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.All_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
